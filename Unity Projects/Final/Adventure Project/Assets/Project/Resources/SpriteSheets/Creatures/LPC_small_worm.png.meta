@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 6c57b1146c3eb4a5e8a2964e8639201e
+timeCreated: 1472857288
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LPC_small_worm_0
+    21300002: LPC_small_worm_1
+    21300004: LPC_small_worm_2
+    21300006: LPC_small_worm_3
+    21300008: LPC_small_worm_4
+    21300010: LPC_small_worm_5
+    21300012: LPC_small_worm_6
+    21300014: LPC_small_worm_7
+    21300016: LPC_small_worm_8
+    21300018: LPC_small_worm_9
+    21300020: LPC_small_worm_10
+    21300022: LPC_small_worm_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LPC_small_worm_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -8, y: 15}
+        - {x: -8, y: -14}
+        - {x: -7, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -10}
+        - {x: 11, y: 15}
+        - {x: 8, y: 16}
+    - name: LPC_small_worm_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -5}
+        - {x: 11, y: 16}
+    - name: LPC_small_worm_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -8, y: 10}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -15}
+        - {x: 10, y: 16}
+    - name: LPC_small_worm_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -8, y: 15}
+        - {x: -8, y: -14}
+        - {x: -6, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 16}
+    - name: LPC_small_worm_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -8, y: 16}
+        - {x: -8, y: -14}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -7}
+        - {x: 11, y: -2}
+        - {x: 11, y: 15}
+    - name: LPC_small_worm_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -8, y: 11}
+        - {x: -8, y: -14}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -12}
+        - {x: 10, y: -8}
+        - {x: 10, y: 16}
+    - name: LPC_small_worm_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -8, y: 15}
+        - {x: -8, y: -14}
+        - {x: -7, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -10}
+        - {x: 11, y: 15}
+        - {x: 8, y: 16}
+    - name: LPC_small_worm_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -5}
+        - {x: 11, y: 16}
+    - name: LPC_small_worm_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -8, y: 10}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -15}
+        - {x: 10, y: 16}
+    - name: LPC_small_worm_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -4}
+        - {x: -8, y: -15}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 13}
+        - {x: 7, y: 16}
+    - name: LPC_small_worm_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -1}
+        - {x: -9, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: 16}
+    - name: LPC_small_worm_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 16}
+        - {x: -5, y: 16}
+        - {x: -10, y: 13}
+        - {x: -10, y: -6}
+        - {x: -9, y: -13}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 8}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

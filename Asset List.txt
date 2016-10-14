@@ -1,0 +1,43 @@
+
+Attribution Required — You must give appropriate credit, provide a link to the license, 
+and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+LPC Sprites:
+
+http://opengameart.org/content/lpc-city-inside
+http://opengameart.org/content/lpc-interior-castle-tiles
+http://opengameart.org/content/lpc-dungeon-elements
+http://opengameart.org/content/lpc-modified-base-tiles
+http://opengameart.org/content/lpc-house-interior-and-decorations
+http://opengameart.org/content/lpc-forest-tiles
+http://opengameart.org/content/lpc-tile-atlas
+http://opengameart.org/content/lpc-hanging-signs
+http://opengameart.org/content/lpc-orange-trees
+http://opengameart.org/content/lpc-thatched-roof-cottage
+http://opengameart.org/content/lpc-style-well
+http://opengameart.org/content/lpc-style-farm-animals
+http://opengameart.org/content/lpc-fireplace
+http://opengameart.org/content/lpc-animated-water-and-waterfalls
+http://opengameart.org/content/lpc-street-lamp
+http://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident
+http://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+http://opengameart.org/content/lpc-signposts-graves-line-cloths-and-scare-crow
+http://opengameart.org/content/lpc-rat-cat-and-dog
+http://opengameart.org/content/lpc-cliffsmountains-with-grass-top-and-more
+http://opengameart.org/content/lpc-farming-tilesets-magic-animations-and-ui-elements
+http://opengameart.org/content/lpc-clock-animation
+http://opengameart.org/content/lpc-windows-doors
+http://opengameart.org/content/lpc-spider
+http://opengameart.org/content/lpc-golem
+http://opengameart.org/content/lpc-imp-2
+http://opengameart.org/content/lpc-cavern-and-ruin-tiles
+
+creatures: http://lpc.opengameart.org/static/lpc-style-guide/assets.html#creatures
+
+cc0
+
+http://opengameart.org/content/mage-city-arcanos
+
+Software/Frameworks:
+
+http://www.seanba.com/tiled2unity

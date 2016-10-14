@@ -1,0 +1,4 @@
+use commands with player input
+write controller input
+
+make character flash red when hit

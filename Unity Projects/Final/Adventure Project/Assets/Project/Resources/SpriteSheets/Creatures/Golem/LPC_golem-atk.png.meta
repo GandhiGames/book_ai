@@ -1,0 +1,632 @@
+fileFormatVersion: 2
+guid: dad43647f38e34c4faa937fdeb6e1557
+timeCreated: 1472859074
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LPC_golem-atk_0
+    21300002: LPC_golem-atk_1
+    21300004: LPC_golem-atk_2
+    21300006: LPC_golem-atk_3
+    21300008: LPC_golem-atk_4
+    21300010: LPC_golem-atk_5
+    21300012: LPC_golem-atk_6
+    21300014: LPC_golem-atk_7
+    21300016: LPC_golem-atk_8
+    21300018: LPC_golem-atk_9
+    21300020: LPC_golem-atk_10
+    21300022: LPC_golem-atk_11
+    21300024: LPC_golem-atk_12
+    21300026: LPC_golem-atk_13
+    21300028: LPC_golem-atk_14
+    21300030: LPC_golem-atk_15
+    21300032: LPC_golem-atk_16
+    21300034: LPC_golem-atk_17
+    21300036: LPC_golem-atk_18
+    21300038: LPC_golem-atk_19
+    21300040: LPC_golem-atk_20
+    21300042: LPC_golem-atk_21
+    21300044: LPC_golem-atk_22
+    21300046: LPC_golem-atk_23
+    21300048: LPC_golem-atk_24
+    21300050: LPC_golem-atk_25
+    21300052: LPC_golem-atk_26
+    21300054: LPC_golem-atk_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LPC_golem-atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 32}
+        - {x: -10, y: 32}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -29}
+        - {x: 17, y: -29}
+        - {x: 20, y: -27}
+        - {x: 24, y: -10}
+        - {x: 24, y: 21}
+    - name: LPC_golem-atk_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 32}
+        - {x: -7, y: 32}
+        - {x: -23, y: 20}
+        - {x: -23, y: -2}
+        - {x: -14, y: -24}
+        - {x: -10, y: -29}
+        - {x: 15, y: -29}
+        - {x: 21, y: -26}
+        - {x: 24, y: -9}
+        - {x: 24, y: 15}
+    - name: LPC_golem-atk_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 34.880005}
+        - {x: -23, y: 28.880005}
+        - {x: -23, y: -13.119995}
+        - {x: -19, y: -26.119995}
+        - {x: -15, y: -30.119995}
+        - {x: 18, y: -30.119995}
+        - {x: 24, y: -11.119995}
+        - {x: 24, y: 20.880005}
+        - {x: 14, y: 34.880005}
+    - name: LPC_golem-atk_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 38.880005}
+        - {x: -15, y: 38.880005}
+        - {x: -23, y: 24.880005}
+        - {x: -23, y: -15.119995}
+        - {x: -20, y: -30.119995}
+        - {x: 15, y: -30.119995}
+        - {x: 23, y: 2.880005}
+        - {x: 24, y: 4.880005}
+        - {x: 24, y: 31.880005}
+    - name: LPC_golem-atk_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 19}
+        - {x: -21, y: 6}
+        - {x: -21, y: -21}
+        - {x: -18, y: -29}
+        - {x: 21, y: -29}
+        - {x: 22, y: -22}
+        - {x: 22, y: 12}
+        - {x: 10, y: 19}
+    - name: LPC_golem-atk_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20}
+        - {x: -21, y: 12}
+        - {x: -21, y: -29}
+        - {x: 22, y: -29}
+        - {x: 22, y: 11}
+        - {x: 11, y: 20}
+    - name: LPC_golem-atk_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 24}
+        - {x: -5, y: 24}
+        - {x: -21, y: 13}
+        - {x: -21, y: -29}
+        - {x: 19, y: -29}
+        - {x: 22, y: -24}
+        - {x: 22, y: 18}
+        - {x: 18, y: 20}
+    - name: LPC_golem-atk_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 19}
+        - {x: 9, y: 31}
+        - {x: 5, y: 31}
+        - {x: 1, y: 30}
+        - {x: -8, y: 16}
+        - {x: -8, y: -32}
+        - {x: 27, y: -32}
+    - name: LPC_golem-atk_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 30}
+        - {x: 5, y: 32}
+        - {x: 1, y: 32}
+        - {x: -10, y: 20}
+        - {x: -10, y: -18}
+        - {x: -7, y: -32}
+        - {x: 21, y: -32}
+        - {x: 25, y: -23}
+        - {x: 25, y: 19}
+        - {x: 23, y: 24}
+    - name: LPC_golem-atk_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -33.119995}
+        - {x: 21, y: -33.119995}
+        - {x: 25, y: -20.119995}
+        - {x: 25, y: 38.880005}
+        - {x: -5, y: 38.880005}
+    - name: LPC_golem-atk_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 38.880005}
+        - {x: -4, y: 22.880005}
+        - {x: -4, y: -33.119995}
+        - {x: 22, y: -33.119995}
+        - {x: 32, y: 5.880005}
+        - {x: 32, y: 38.880005}
+    - name: LPC_golem-atk_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 17}
+        - {x: -22, y: 17}
+        - {x: -27, y: 13}
+        - {x: -32, y: -9}
+        - {x: -32, y: -32}
+        - {x: 22, y: -32}
+        - {x: 23, y: -30}
+        - {x: 23, y: -21}
+        - {x: 12, y: 0}
+    - name: LPC_golem-atk_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -23, y: 16}
+        - {x: -23, y: -32}
+        - {x: 23, y: -32}
+        - {x: 23, y: 12}
+        - {x: 5, y: 20}
+    - name: LPC_golem-atk_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -32}
+        - {x: 23, y: -32}
+        - {x: 23, y: -12}
+        - {x: 21, y: 12}
+        - {x: 1, y: 24}
+        - {x: -14, y: 24}
+        - {x: -17, y: 14}
+    - name: LPC_golem-atk_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 32}
+        - {x: -23, y: 21}
+        - {x: -23, y: -23}
+        - {x: -17, y: -29}
+        - {x: 24, y: -29}
+        - {x: 24, y: 24}
+        - {x: 9, y: 32}
+    - name: LPC_golem-atk_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32}
+        - {x: -21, y: 22}
+        - {x: -21, y: -4}
+        - {x: -17, y: -29}
+        - {x: 17, y: -29}
+        - {x: 22, y: -13}
+        - {x: 22, y: 22}
+        - {x: 10, y: 32}
+    - name: LPC_golem-atk_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -17.119995}
+        - {x: 22, y: 24.880005}
+        - {x: 15, y: 35.880005}
+        - {x: -8, y: 35.880005}
+        - {x: -21, y: 28.880005}
+        - {x: -21, y: -13.119995}
+        - {x: -17, y: -28.119995}
+        - {x: -11, y: -30.119995}
+        - {x: -1, y: -30.119995}
+        - {x: 0, y: -27.119995}
+        - {x: 4, y: -30.119995}
+        - {x: 17, y: -30.119995}
+    - name: LPC_golem-atk_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 64
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -30.300003}
+        - {x: 18, y: -30.300003}
+        - {x: 22, y: -19.300003}
+        - {x: 22, y: 25.699997}
+        - {x: 11, y: 38.699997}
+        - {x: 9, y: 40.699997}
+        - {x: -10, y: 40.699997}
+        - {x: -21, y: 32.699997}
+        - {x: -21, y: -14.300003}
+        - {x: -19, y: -29.300003}
+        - {x: -10, y: -30.300003}
+        - {x: -3, y: -30.300003}
+        - {x: 0, y: -27.300003}
+        - {x: 0, y: -22.300003}
+        - {x: 1, y: -27.300003}
+    - name: LPC_golem-atk_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -21, y: 5}
+        - {x: -21, y: -24}
+        - {x: -17, y: -31}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 22, y: -26}
+        - {x: 22, y: 8}
+        - {x: 10, y: 16}
+    - name: LPC_golem-atk_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 17}
+        - {x: -21, y: 10}
+        - {x: -21, y: -24}
+        - {x: -20, y: -32}
+        - {x: 15, y: -32}
+        - {x: 22, y: -29}
+        - {x: 22, y: 11}
+        - {x: 11, y: 17}
+    - name: LPC_golem-atk_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -14}
+        - {x: 1, y: -16}
+        - {x: 3, y: -22}
+        - {x: 4, y: -29}
+        - {x: 14, y: -29}
+        - {x: 22, y: -26}
+        - {x: 22, y: 13}
+        - {x: 10, y: 24}
+        - {x: -8, y: 24}
+        - {x: -21, y: 17}
+        - {x: -21, y: -13}
+        - {x: -17, y: -29}
+        - {x: -5, y: -29}
+        - {x: -1, y: -23}
+        - {x: 0, y: -16}
+        - {x: 1, y: -14}
+    - name: LPC_golem-atk_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 31}
+        - {x: -27, y: 15}
+        - {x: -27, y: -10}
+        - {x: -26, y: -17}
+        - {x: -23, y: -32}
+        - {x: 8, y: -32}
+        - {x: 8, y: 22}
+        - {x: -2, y: 31}
+    - name: LPC_golem-atk_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32}
+        - {x: -25, y: 18}
+        - {x: -25, y: -18}
+        - {x: -21, y: -32}
+        - {x: 9, y: -32}
+        - {x: 10, y: -22}
+        - {x: 10, y: 15}
+        - {x: 2, y: 32}
+    - name: LPC_golem-atk_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 40.7}
+        - {x: -25, y: -11.299999}
+        - {x: -19, y: -33.3}
+        - {x: 5, y: -33.3}
+        - {x: 5, y: 40.7}
+    - name: LPC_golem-atk_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 40.7}
+        - {x: -32, y: 40.7}
+        - {x: -32, y: 2.7000008}
+        - {x: -21, y: -33.3}
+        - {x: 4, y: -33.3}
+        - {x: 4, y: 22.7}
+        - {x: -9, y: 38.7}
+    - name: LPC_golem-atk_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 17}
+        - {x: 10, y: 17}
+        - {x: -16, y: 0}
+        - {x: -23, y: -18}
+        - {x: -23, y: -32}
+        - {x: -8, y: -32}
+        - {x: -8, y: -28}
+        - {x: -8, y: -29}
+    - name: LPC_golem-atk_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 20}
+        - {x: 7, y: 20}
+        - {x: -13, y: 11}
+        - {x: -23, y: -18}
+        - {x: -23, y: -29}
+        - {x: -22, y: -32}
+        - {x: 21, y: -32}
+        - {x: 23, y: -29}
+        - {x: 23, y: -11}
+    - name: LPC_golem-atk_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 24}
+        - {x: 0, y: 24}
+        - {x: -23, y: 9}
+        - {x: -23, y: -32}
+        - {x: 14, y: -32}
+        - {x: 17, y: -28}
+        - {x: 17, y: 0}
+        - {x: 16, y: 19}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

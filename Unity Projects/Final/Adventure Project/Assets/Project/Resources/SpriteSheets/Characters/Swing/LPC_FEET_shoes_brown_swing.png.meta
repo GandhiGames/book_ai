@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: b851cdc2bb0864fc5abfa713e91c5b6e
+timeCreated: 1470226843
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LPC_FEET_shoes_brown_swing_0
+    21300002: LPC_FEET_shoes_brown_swing_1
+    21300004: LPC_FEET_shoes_brown_swing_2
+    21300006: LPC_FEET_shoes_brown_swing_3
+    21300008: LPC_FEET_shoes_brown_swing_4
+    21300010: LPC_FEET_shoes_brown_swing_5
+    21300012: LPC_FEET_shoes_brown_swing_6
+    21300014: LPC_FEET_shoes_brown_swing_7
+    21300016: LPC_FEET_shoes_brown_swing_8
+    21300018: LPC_FEET_shoes_brown_swing_9
+    21300020: LPC_FEET_shoes_brown_swing_10
+    21300022: LPC_FEET_shoes_brown_swing_11
+    21300024: LPC_FEET_shoes_brown_swing_12
+    21300026: LPC_FEET_shoes_brown_swing_13
+    21300028: LPC_FEET_shoes_brown_swing_14
+    21300030: LPC_FEET_shoes_brown_swing_15
+    21300032: LPC_FEET_shoes_brown_swing_16
+    21300034: LPC_FEET_shoes_brown_swing_17
+    21300036: LPC_FEET_shoes_brown_swing_18
+    21300038: LPC_FEET_shoes_brown_swing_19
+    21300040: LPC_FEET_shoes_brown_swing_20
+    21300042: LPC_FEET_shoes_brown_swing_21
+    21300044: LPC_FEET_shoes_brown_swing_22
+    21300046: LPC_FEET_shoes_brown_swing_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LPC_FEET_shoes_brown_swing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -20}
+        - {x: -14, y: -24}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: -5, y: -32}
+        - {x: -2, y: -29}
+        - {x: -2, y: -23}
+        - {x: -5, y: -20}
+      - - {x: 5, y: -20}
+        - {x: 2, y: -21}
+        - {x: 2, y: -30}
+        - {x: 3, y: -32}
+        - {x: 13, y: -32}
+        - {x: 14, y: -29}
+        - {x: 14, y: -21}
+        - {x: 12, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -20}
+        - {x: 3, y: -32}
+        - {x: 14, y: -32}
+        - {x: 15, y: -29}
+        - {x: 15, y: -23}
+        - {x: 10, y: -20}
+      - - {x: -10, y: -20}
+        - {x: -14, y: -24}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: -5, y: -32}
+        - {x: -2, y: -29}
+        - {x: -2, y: -23}
+        - {x: -5, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -21}
+        - {x: 2, y: -22}
+        - {x: 2, y: -28}
+        - {x: 4, y: -32}
+        - {x: 14, y: -32}
+        - {x: 15, y: -31}
+        - {x: 15, y: -22}
+        - {x: 11, y: -21}
+      - - {x: -13, y: -20}
+        - {x: -14, y: -24}
+        - {x: -14, y: -31}
+        - {x: -13, y: -32}
+        - {x: -4, y: -32}
+        - {x: -2, y: -31}
+        - {x: -2, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -21}
+        - {x: 3, y: -24}
+        - {x: 3, y: -30}
+        - {x: 5, y: -32}
+        - {x: 12, y: -32}
+        - {x: 15, y: -29}
+        - {x: 15, y: -25}
+        - {x: 12, y: -21}
+      - - {x: -13, y: -21}
+        - {x: -14, y: -24}
+        - {x: -14, y: -30}
+        - {x: -13, y: -32}
+        - {x: -4, y: -32}
+        - {x: -2, y: -31}
+        - {x: -2, y: -21}
+    - name: LPC_FEET_shoes_brown_swing_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -21}
+        - {x: 3, y: -24}
+        - {x: 3, y: -30}
+        - {x: 5, y: -32}
+        - {x: 12, y: -32}
+        - {x: 15, y: -29}
+        - {x: 15, y: -24}
+        - {x: 12, y: -21}
+      - - {x: -13, y: -21}
+        - {x: -14, y: -24}
+        - {x: -14, y: -30}
+        - {x: -13, y: -32}
+        - {x: -4, y: -32}
+        - {x: -2, y: -31}
+        - {x: -2, y: -21}
+    - name: LPC_FEET_shoes_brown_swing_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -21}
+        - {x: 3, y: -23}
+        - {x: 3, y: -30}
+        - {x: 5, y: -32}
+        - {x: 12, y: -32}
+        - {x: 15, y: -29}
+        - {x: 15, y: -24}
+        - {x: 14, y: -21}
+      - - {x: -14, y: -28}
+        - {x: -12, y: -32}
+        - {x: -5, y: -32}
+        - {x: -2, y: -31}
+        - {x: -2, y: -20}
+        - {x: -10, y: -20}
+        - {x: -14, y: -23}
+    - name: LPC_FEET_shoes_brown_swing_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -19}
+        - {x: -11, y: -22}
+        - {x: -11, y: -30}
+        - {x: -6, y: -32}
+        - {x: 8, y: -32}
+        - {x: 10, y: -29}
+        - {x: 10, y: -21}
+        - {x: 8, y: -19}
+    - name: LPC_FEET_shoes_brown_swing_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -20}
+        - {x: -13, y: -25}
+        - {x: -13, y: -30}
+        - {x: -9, y: -32}
+        - {x: 10, y: -32}
+        - {x: 10, y: -24}
+        - {x: 5, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -20}
+        - {x: -8, y: -21}
+        - {x: -13, y: -25}
+        - {x: -13, y: -28}
+        - {x: -12, y: -30}
+        - {x: -1, y: -32}
+        - {x: 9, y: -32}
+        - {x: 10, y: -30}
+        - {x: 10, y: -23}
+        - {x: 6, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -20}
+        - {x: -8, y: -21}
+        - {x: -13, y: -25}
+        - {x: -13, y: -28}
+        - {x: -12, y: -30}
+        - {x: -1, y: -32}
+        - {x: 9, y: -32}
+        - {x: 10, y: -30}
+        - {x: 10, y: -23}
+        - {x: 6, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -20}
+        - {x: -11, y: -21}
+        - {x: -13, y: -25}
+        - {x: -13, y: -30}
+        - {x: -11, y: -30}
+        - {x: -1, y: -32}
+        - {x: 9, y: -32}
+        - {x: 10, y: -31}
+        - {x: 10, y: -21}
+        - {x: 7, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -20}
+        - {x: -11, y: -21}
+        - {x: -13, y: -25}
+        - {x: -13, y: -30}
+        - {x: -11, y: -30}
+        - {x: -1, y: -32}
+        - {x: 9, y: -32}
+        - {x: 10, y: -31}
+        - {x: 10, y: -21}
+        - {x: 7, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -19}
+        - {x: -14, y: -22}
+        - {x: -14, y: -29}
+        - {x: -13, y: -32}
+        - {x: -3, y: -32}
+        - {x: -1, y: -28}
+        - {x: -1, y: -21}
+        - {x: -4, y: -19}
+      - - {x: 1, y: -24}
+        - {x: 1, y: -28}
+        - {x: 3, y: -32}
+        - {x: 11, y: -32}
+        - {x: 14, y: -31}
+        - {x: 14, y: -24}
+        - {x: 12, y: -19}
+        - {x: 7, y: -19}
+        - {x: 4, y: -20}
+        - {x: 2, y: -21}
+    - name: LPC_FEET_shoes_brown_swing_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -19}
+        - {x: -11, y: -19}
+        - {x: -14, y: -23}
+        - {x: -14, y: -29}
+        - {x: -13, y: -32}
+        - {x: -5, y: -32}
+        - {x: -1, y: -28}
+        - {x: -1, y: -22}
+      - - {x: 5, y: -20}
+        - {x: 2, y: -23}
+        - {x: 2, y: -27}
+        - {x: 6, y: -31}
+        - {x: 12, y: -31}
+        - {x: 15, y: -28}
+        - {x: 15, y: -25}
+        - {x: 10, y: -19}
+    - name: LPC_FEET_shoes_brown_swing_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -20}
+        - {x: -14, y: -23}
+        - {x: -14, y: -29}
+        - {x: -13, y: -32}
+        - {x: -5, y: -32}
+        - {x: -1, y: -30}
+        - {x: -1, y: -23}
+        - {x: -2, y: -20}
+      - - {x: 3, y: -20}
+        - {x: 1, y: -23}
+        - {x: 2, y: -27}
+        - {x: 4, y: -31}
+        - {x: 13, y: -31}
+        - {x: 15, y: -30}
+        - {x: 15, y: -22}
+        - {x: 11, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -18}
+        - {x: -11, y: -21}
+        - {x: -14, y: -26}
+        - {x: -14, y: -31}
+        - {x: -12, y: -32}
+        - {x: -2, y: -32}
+        - {x: -1, y: -30}
+        - {x: -1, y: -22}
+        - {x: -2, y: -18}
+      - - {x: 2, y: -20}
+        - {x: 2, y: -28}
+        - {x: 6, y: -31}
+        - {x: 14, y: -31}
+        - {x: 15, y: -28}
+        - {x: 15, y: -23}
+        - {x: 12, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -19}
+        - {x: -14, y: -26}
+        - {x: -14, y: -32}
+        - {x: -2, y: -32}
+        - {x: -1, y: -31}
+        - {x: -1, y: -22}
+        - {x: -2, y: -19}
+      - - {x: 6, y: -19}
+        - {x: 2, y: -22}
+        - {x: 2, y: -27}
+        - {x: 6, y: -31}
+        - {x: 12, y: -31}
+        - {x: 15, y: -30}
+        - {x: 15, y: -25}
+        - {x: 12, y: -19}
+    - name: LPC_FEET_shoes_brown_swing_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -19}
+        - {x: -14, y: -26}
+        - {x: -14, y: -32}
+        - {x: -2, y: -32}
+        - {x: -1, y: -31}
+        - {x: -1, y: -22}
+        - {x: -2, y: -19}
+      - - {x: 2, y: -20}
+        - {x: 2, y: -30}
+        - {x: 4, y: -31}
+        - {x: 14, y: -31}
+        - {x: 15, y: -28}
+        - {x: 15, y: -24}
+        - {x: 10, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -19}
+        - {x: -9, y: -19}
+        - {x: -10, y: -24}
+        - {x: -10, y: -30}
+        - {x: -6, y: -32}
+        - {x: 1, y: -32}
+        - {x: 10, y: -31}
+        - {x: 11, y: -29}
+        - {x: 11, y: -23}
+    - name: LPC_FEET_shoes_brown_swing_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -20}
+        - {x: -10, y: -24}
+        - {x: -10, y: -29}
+        - {x: -8, y: -32}
+        - {x: 12, y: -32}
+        - {x: 13, y: -30}
+        - {x: 13, y: -22}
+        - {x: 6, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -20}
+        - {x: -10, y: -23}
+        - {x: -10, y: -29}
+        - {x: -9, y: -32}
+        - {x: 5, y: -32}
+        - {x: 12, y: -31}
+        - {x: 13, y: -29}
+        - {x: 13, y: -22}
+        - {x: 11, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -20}
+        - {x: -10, y: -23}
+        - {x: -10, y: -29}
+        - {x: -9, y: -32}
+        - {x: 5, y: -32}
+        - {x: 12, y: -31}
+        - {x: 13, y: -29}
+        - {x: 13, y: -22}
+        - {x: 11, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -20}
+        - {x: -10, y: -25}
+        - {x: -10, y: -29}
+        - {x: -8, y: -32}
+        - {x: 12, y: -32}
+        - {x: 13, y: -30}
+        - {x: 13, y: -23}
+        - {x: 5, y: -20}
+    - name: LPC_FEET_shoes_brown_swing_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -20}
+        - {x: -10, y: -23}
+        - {x: -10, y: -29}
+        - {x: -9, y: -32}
+        - {x: 12, y: -32}
+        - {x: 13, y: -29}
+        - {x: 13, y: -22}
+        - {x: 11, y: -20}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

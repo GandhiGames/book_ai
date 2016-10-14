@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C21E3432-44A8-EF78-217F-1AF0D7BEF437}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Commands\Scripts\Core\Command.cs" />
+     <Compile Include="Assets\Commands\Scripts\Game Specific\IdleCommand.cs" />
+     <Compile Include="Assets\Commands\Scripts\Game Specific\MeleeCommand.cs" />
+     <Compile Include="Assets\Commands\Scripts\Game Specific\MovementCommand.cs" />
+     <Compile Include="Assets\Commands\Scripts\Game Specific\ObstacleAvoidanceMovementCommand.cs" />
+     <Compile Include="Assets\Commands\Scripts\Game Specific\ProjectileAvoidanceCommand.cs" />
+     <Compile Include="Assets\Commands\Scripts\Game Specific\ProjectileCommand.cs" />
+     <Compile Include="Assets\FSM\Scripts\Core\Actions\FSMAction.cs" />
+     <Compile Include="Assets\FSM\Scripts\Core\FSM.cs" />
+     <Compile Include="Assets\FSM\Scripts\Core\FSMState.cs" />
+     <Compile Include="Assets\FSM\Scripts\Core\GlobalStateData.cs" />
+     <Compile Include="Assets\FSM\Scripts\Core\Reasons\FSMReason.cs" />
+     <Compile Include="Assets\FSM\Scripts\Core\State.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Actions\IdleAction.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Actions\MeleeTowardsTargetAction.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Actions\Path Following\FollowPathAction.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Actions\Path Following\FollowPathToRandomAction.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Actions\Path Following\FollowPathToTargetAction.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Actions\SeekTargetAction.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Controllers\FSM_Brain.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Controllers\FSM_Spider.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Controllers\FSM_Worm.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Reasons\HitObstacleReason.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Reasons\TargetInRangeReason.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Reasons\TargetInSightReason.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Reasons\TargetNotInRangeReason.cs" />
+     <Compile Include="Assets\FSM\Scripts\Game Specific\Reasons\TargetNotInSightReason.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\CellPlacement.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Details\DungeonTeleport.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Details\Placement\DetailPlacementListener.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Details\Placement\DetailsPlacement.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Details\Placement\DungeonDetailsPlacement.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Details\Placement\TrackPlacement.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\DungeonEditorGeneratorFix.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\DungeonLevelTransition.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\GridManager.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Nodes\Node.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Nodes\NodeCluster.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Nodes\NodeClusterManager.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Nodes\NodeList.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Path Management\NodeOccupancy.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Path Management\PathManager.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\Path Management\WaypointManager.cs" />
+     <Compile Include="Assets\Procedural Cave Generator\Scripts\TexturePack.cs" />
+     <Compile Include="Assets\Project\Scripts\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Project\Scripts\Camera\CameraOrthographicSizeScaler.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\AnimationMovementHandler.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\BaseCreatureAnimationListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\CharacterAnimationListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\CharacterAnimationSpriteSetActive.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Idle\AnimatedCharacterIdleComponent.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Idle\CharacterAnimatedIdleListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Idle\CharacterIdleSpriteAnimator.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Shoot\AnimatedCharacterShootComponent.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Shoot\CharacterAnimatedShootEnableRendererListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Shoot\CharacterAnimatedShootListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Shoot\CharacterShootSpriteAnimator.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Swing\AnimatedCharacterSwingComponent.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Swing\CharacterAnimatedSwingEnableRendererListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Swing\CharacterAnimatedSwingListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Swing\CharacterSwingSpriteAnimator.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Walk\AnimatedCharacterWalkComponent.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Walk\CharacterAnimatedWalkListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Walk\CharacterAnimatedWalkOrderListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Humanoid\Walk\CharacterWalkSpriteAnimator.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Animation\Spider\SpiderAnimationListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Movement\CharacterMovementHandler.cs" />
+     <Compile Include="Assets\Project\Scripts\Characters\Movement\MovementHandler.cs" />
+     <Compile Include="Assets\Project\Scripts\Damage\DamageListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Damage\Destructible.cs" />
+     <Compile Include="Assets\Project\Scripts\Damage\Health.cs" />
+     <Compile Include="Assets\Project\Scripts\Damage\KnockbackOnDamage.cs" />
+     <Compile Include="Assets\Project\Scripts\Object Pool\ObjectManager.cs" />
+     <Compile Include="Assets\Project\Scripts\Object Pool\ObjectPool.cs" />
+     <Compile Include="Assets\Project\Scripts\Player\Animation\PlayerAnimationController.cs" />
+     <Compile Include="Assets\Project\Scripts\Player\Input\HolsterAnimationListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Player\Input\PlayerController.cs" />
+     <Compile Include="Assets\Project\Scripts\Player\Input\PlayerControllerType.cs" />
+     <Compile Include="Assets\Project\Scripts\Player\Input\PlayerGamepadController.cs" />
+     <Compile Include="Assets\Project\Scripts\Player\Input\PlayerKeyboardController.cs" />
+     <Compile Include="Assets\Project\Scripts\Utilities\Extensions.cs" />
+     <Compile Include="Assets\Project\Scripts\Utilities\Singleton.cs" />
+     <Compile Include="Assets\Project\Scripts\Utilities\Utilities.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\Holster.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\MeleeHolster.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\MeleeWeapon.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\Projectile.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\RangedHolster.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\RangedWeapon.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\Weapon.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\WeaponEquippedListener.cs" />
+     <Compile Include="Assets\Project\Scripts\Weapons\WeaponNotFoundException.cs" />
+     <Compile Include="Assets\Project\Scripts\World\LightFlicker.cs" />
+     <Compile Include="Assets\Project\Scripts\World\VariableSortingOrder.cs" />
+     <Compile Include="Assets\Project\Scripts\World\Warp.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
+     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+     <None Include="Assets\Tiled2Unity\Imported\house_layout_1.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
+     <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
+     <None Include="Assets\Tiled2Unity\Imported\city.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\players_house.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\players_house_exterior.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
+     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
+     <None Include="Assets\Tiled2Unity\License.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

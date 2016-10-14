@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Procedural Cave Generator/Scenes/Procedural Cave Staging.unity
+  isLoaded: 1
+  isActive: 1
