@@ -29,7 +29,7 @@ namespace AdventureGame.StateManagement
 
 		[Header("Attack")]
 		public float delayBetweenAttacks = 1f;
-		public float attackDamage = 1f;
+		public int attackDamage = 1;
 		public float attackKnockbackForce = 200f;
 		public float attackRange = 2f;
 

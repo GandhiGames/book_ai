@@ -12,7 +12,7 @@ namespace AdventureGame.StateManagement
 		private Transform m_Target;
 
 		private float m_DelayBetweenAttacks;
-		private float m_DamageAmount;
+		private int m_DamageAmount;
 		private float m_KnockbackForce;
 		private float m_Range;
 		private LayerMask m_HitMask;
@@ -20,7 +20,7 @@ namespace AdventureGame.StateManagement
 		private float m_CurrentDelay;
 
 		public MeleeTowardsTargetAction (Transform character, Transform target, float delayBetweenAttacks,
-		                                 float damageAmount, float knockbackForce, 
+		                                 int damageAmount, float knockbackForce, 
 			float range, LayerMask hitMask, Animator animator)
 		{
 			m_Character = character;

@@ -17,7 +17,6 @@ namespace AdventureGame.CaveGenerator
 		public PathManager pathManager;
 		public List<NodeCluster> Clusters { get; set; }
 
-		private NodeCluster mainCluster;
 		private int? mainClusterIndex;
 
 		/// <summary>

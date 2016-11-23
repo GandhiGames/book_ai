@@ -1,40 +1,44 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace AdventureGame.CaveGenerator
 {
+    public interface NodeOccupancy
+    {
+        void Update(Vector2 pos);
+        void SetCurrentNodeInUse(Vector2 pos, bool inUse);
+        void MarkListInUse(List<Node> path, bool inUse);
+    }
+
 	/// <summary>
 	/// Used to increase the path finding cost of the current occupied grid.
 	/// </summary>
-	public class NodeOccupancy
+	public class NodeOccupancyImpl : NodeOccupancy
 	{
-		private Node previousNode;
-		private Node currentNode;
+        public Node CurrentNode { get { return m_CurrentNode; } }
 
-		public Node CurrentNode { get { return currentNode; } }
+        private Node m_PreviousNode;
+		private Node m_CurrentNode;
+
 
 		public void Update (Vector2 pos)
 		{
+			m_PreviousNode = m_CurrentNode;
+			m_CurrentNode = GridManager.instance.grid.GetNodeFromPosition (pos);
 
-			previousNode = currentNode;
-			currentNode = GridManager.instance.grid.GetNodeFromPosition (pos);
-
-			if (previousNode == null) {
+			if (m_PreviousNode == null) {
 				return;
 			}
 		
-			if (!previousNode.Equals (currentNode)) {	
-				previousNode.isOccupied = false;
-				currentNode.isOccupied = true;
+			if (!m_PreviousNode.Equals (m_CurrentNode)) {	
+				m_PreviousNode.isOccupied = false;
+				m_CurrentNode.isOccupied = true;
 			}
-		
 		}
 
 		public void SetCurrentNodeInUse (Vector2 pos, bool inUse)
 		{
 			GridManager.instance.grid.GetNodeFromPosition (pos).isOccupied = inUse;
-
 		}
 
 		public void MarkListInUse (List<Node> path, bool inUse)
@@ -44,4 +48,12 @@ namespace AdventureGame.CaveGenerator
 			}
 		}
 	}
+
+    public class IdleNodeOccupancyImpl : NodeOccupancy
+    {
+        public void Update(Vector2 pos) { }
+        public void SetCurrentNodeInUse(Vector2 pos, bool inUse) { }
+        public void MarkListInUse(List<Node> path, bool inUse) { }
+    }
 }
+

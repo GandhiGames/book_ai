@@ -62,30 +62,22 @@ namespace AdventureGame.CaveGenerator
 			}
 		}
 
-		private static readonly string FOREGROUND_SORTING_LAYER = "Foreground";
+        public List<Node> FloorNodes { get { return grid.GetNodesOfType(NodeType.Floor); } }
+
+        private static readonly string FOREGROUND_SORTING_LAYER = "Foreground";
 		private static readonly string GROUND_SORTING_LAYER = "Ground";
 		private static readonly string WALL_SORTING_LAYER = "Above Ground";
 
-		private NodeClusterManager nodeClusterManager;
-
-
-		public List<Node> FloorNodes { get { return grid.GetNodesOfType (NodeType.Floor); } }
-
-		[SerializeField, HideInInspector]
-		private TexturePack[]
-			texturePacks;
-			
-		[SerializeField, HideInInspector]
-		private int
-			currentTexturePack = 0;
-		
-		private int _backgroundLayer;
-		private int _wallLayer;
+        private NodeClusterManager m_NodeClusterManager;
+		private TexturePack[] m_TexturePacks;
+		private int m_CurrentTexturePack = 0;
+		private int m_BackgroundLayer;
+		private int m_WallLayer;
 
 
 		public TexturePack texturePack {
 			get {
-				return texturePacks [currentTexturePack];
+				return m_TexturePacks [m_CurrentTexturePack];
 			}
 		}
 
@@ -121,17 +113,17 @@ namespace AdventureGame.CaveGenerator
 				return;
 			}
 
-			if (!nodeClusterManager) {
-				nodeClusterManager = GetComponent<NodeClusterManager> ();
+			if (!m_NodeClusterManager) {
+				m_NodeClusterManager = GetComponent<NodeClusterManager> ();
 			}
 
-			texturePacks = GetTexturePacks ();
+			m_TexturePacks = GetTexturePacks ();
 			
 			string backgroundLayerName = BackgroundLayer.MaskToNames ().Length > 0 ? BackgroundLayer.MaskToNames () [0] : "Nothing";
-			_backgroundLayer = LayerMask.NameToLayer (backgroundLayerName);
+			m_BackgroundLayer = LayerMask.NameToLayer (backgroundLayerName);
 			
 			string wallLayerName = WallLayer.MaskToNames ().Length > 0 ? WallLayer.MaskToNames () [0] : "Nothing";
-			_wallLayer = LayerMask.NameToLayer (wallLayerName);
+			m_WallLayer = LayerMask.NameToLayer (wallLayerName);
 
 			Random.InitState (Seed);
 
@@ -149,9 +141,9 @@ namespace AdventureGame.CaveGenerator
 			}
 				
 			if (IsConnectedEnvironment) {
-				nodeClusterManager.IdentifyClusters (grid, gridSize); 
+				m_NodeClusterManager.IdentifyClusters (grid, gridSize); 
 
-				nodeClusterManager.ConnectClusters ();
+				m_NodeClusterManager.ConnectClusters ();
 			} 
 
 			if (Utilities.instance.IsDebug)
@@ -160,7 +152,7 @@ namespace AdventureGame.CaveGenerator
 			RemoveExtraneous ();
 		
 			// Identify clusters so they can be connected using Path manager 
-			nodeClusterManager.IdentifyClusters (grid, gridSize);
+			m_NodeClusterManager.IdentifyClusters (grid, gridSize);
 
 		
 
@@ -211,7 +203,7 @@ namespace AdventureGame.CaveGenerator
 
 			GenerateEnvironment ();
 
-			nodeClusterManager.CalculateMainCluster ();
+			m_NodeClusterManager.CalculateMainCluster ();
 
 			if (Utilities.instance.IsDebug)
 				Debug.Log ("Generated environment in " + (Time.realtimeSinceStartup - beginGeneratingTime) + " seconds"); 
@@ -225,7 +217,7 @@ namespace AdventureGame.CaveGenerator
 
 		public void LoadNextTexturePack ()
 		{
-			currentTexturePack = (currentTexturePack + 1) % texturePacks.Length;
+			m_CurrentTexturePack = (m_CurrentTexturePack + 1) % m_TexturePacks.Length;
 		}
 
 
@@ -475,8 +467,8 @@ namespace AdventureGame.CaveGenerator
 						collider.enabled = true;
 						collider.isTrigger = true;
 
-						if (_backgroundLayer >= 0 && _backgroundLayer <= 31) {
-							cell.layer = _backgroundLayer;
+						if (m_BackgroundLayer >= 0 && m_BackgroundLayer <= 31) {
+							cell.layer = m_BackgroundLayer;
 						}
 
 						renderer.sortingLayerName = GROUND_SORTING_LAYER;
@@ -503,8 +495,8 @@ namespace AdventureGame.CaveGenerator
 						}
 			
 
-						if (_wallLayer >= 0 && _wallLayer <= 31) {
-							cell.layer = _wallLayer;
+						if (m_WallLayer >= 0 && m_WallLayer <= 31) {
+							cell.layer = m_WallLayer;
 						}
 					} 
 												
@@ -746,7 +738,7 @@ namespace AdventureGame.CaveGenerator
 
 		public Node GetRandomBackgroundNode ()
 		{
-			List<Node> cluster = nodeClusterManager.MainCluster.Nodes;
+			List<Node> cluster = m_NodeClusterManager.MainCluster.Nodes;
 					
 			return cluster [(int)(Random.value * cluster.Count - 1)];
 			
@@ -754,7 +746,7 @@ namespace AdventureGame.CaveGenerator
 
 		public List<Node> GetBackgroundNodes ()
 		{
-			return nodeClusterManager.MainCluster.Nodes;
+			return m_NodeClusterManager.MainCluster.Nodes;
 		}
 
 		public Node GetRandomFloorNode ()

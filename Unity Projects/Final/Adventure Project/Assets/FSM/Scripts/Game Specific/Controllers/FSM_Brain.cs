@@ -1,6 +1,4 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using AdventureGame.CaveGenerator;
 
 namespace AdventureGame.StateManagement
@@ -49,7 +47,14 @@ namespace AdventureGame.StateManagement
 			}
 
 			if (occupiedNode == null) {
-				occupiedNode = new NodeOccupancy ();
+
+                bool shouldNotifyGridManager = GameObject.FindObjectOfType<GridManager>();
+
+                if (shouldNotifyGridManager) {
+                    occupiedNode = new NodeOccupancyImpl();
+                } else {
+                    occupiedNode = new IdleNodeOccupancyImpl();
+                }
 			}
 
 		}
