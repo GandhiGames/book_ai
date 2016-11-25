@@ -1,4 +1,4 @@
-
+﻿
 Attribution Required — You must give appropriate credit, provide a link to the license, 
 and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
@@ -31,6 +31,7 @@ http://opengameart.org/content/lpc-spider
 http://opengameart.org/content/lpc-golem
 http://opengameart.org/content/lpc-imp-2
 http://opengameart.org/content/lpc-cavern-and-ruin-tiles
+http://opengameart.org/content/anime-portrait-for-lpc-characters
 
 creatures: http://lpc.opengameart.org/static/lpc-style-guide/assets.html#creatures
 
