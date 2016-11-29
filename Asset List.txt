@@ -36,6 +36,7 @@ http://opengameart.org/content/bunny-rabbit-lpc-style-for-pixelfarm
 http://opengameart.org/content/lpc-wolf-animation
 http://opengameart.org/content/lpc-rat-cat-and-dog
 http://opengameart.org/content/lpc-horse
+http://opengameart.org/content/lpc-raven-and-seagull
 
 creatures: http://lpc.opengameart.org/static/lpc-style-guide/assets.html#creatures
 
